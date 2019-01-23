@@ -2,4 +2,4 @@
 
 Add pgaudit to bitnami postgresql docker image
 
-It is intent to add audit to postgresql in kubernetes helm chart
+It is intent to add audit log to postgresql in kubernetes helm chart
