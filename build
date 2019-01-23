@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker build -t alsorunning/postgresql-audit:10.6.0 .

@@ -1,0 +1,10 @@
+version: "3"
+services:
+  postgres:
+    image: alsorunning/postgresql-audit:10.6.0
+    ports:
+    - 7432:5432
+    volumes:
+    - ./pgaudit.conf:/opt/bitnami/postgresql/conf/conf.d/pgaudit.conf
+    environment:
+    - POSTGRESQL_PASSWORD=secret
